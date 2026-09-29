@@ -40,10 +40,10 @@ The analysis revealed several important findings:
 
 Based on the findings, the following improvements can be considered:
 
-* Tune LSTM architecture and hyperparameters separately for each stock rather than applying the same configuration to all datasets.
-* Experiment with different **lookback windows** to capture longer-term price patterns.
-* Compare LSTM with other time-series models such as **GRU, Bidirectional LSTM, or traditional forecasting methods**.
-* Include additional features such as **Open, High, Low, Volume, and technical indicators** instead of relying only on closing prices.
+* Tune the LSTM hyperparameters to find the configuration that provides better forecasting performance for each stock.
+* Experiment with different lookback windows, such as 5, 10, or 20 days, to determine how much historical data is useful for prediction.
+* Add more stock features such as Open, High, Low, and Volume instead of relying only on the closing price.
+* Experiment with different LSTM architectures, such as changing the number of LSTM units or adding additional LSTM layers.
 
 ## Repository
 
